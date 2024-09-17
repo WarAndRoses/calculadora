@@ -1,0 +1,141 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border: 1px solid;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#pantalla{
+    grid-column: span 4;
+    border: 1px solid;
+    grid-row: span 1;
+    text-align: right;
+    font-size: 24px;
+}
+#siete{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+    
+}
+
+#ocho{
+    
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+    
+}
+#nueve{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+   
+}
+#dividir{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+    
+}
+#seis{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+    
+}
+#cinco{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+    
+}
+#cuatro{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+    
+}
+#tres{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+    
+}
+#dos{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;   
+}
+#uno{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+  
+}
+#cero{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+    
+}
+#mas{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+    
+}
+#menos{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+}
+#multiplicar{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+}
+#punto{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+}
+#igual{
+    height: 150px;
+    width: 150px;
+    grid-column: span 1;
+    border: 1px solid;
+    grid-row: span 1;
+}

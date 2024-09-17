@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rosado {
+    background-color: pink;
+   width: 100%; 
+   height: 300px;
+}
+
+.verde {
+    background-color: green;
+    width: 100%;
+    height: 300px;
+}
+
+.azul {
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
+
+.gris {
+    background-color: grey;
+    width: 100%;
+    height: 400px;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.morado {
+    background-color: purple;
+}
+
+@media screen and (min-width: 501px) and (max-width: 750px) {
+    body {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: auto auto auto;
+       }
+
+    .rosado {
+        grid-column: span 9;
+    }
+    .verde {
+        grid-column: span 3;
+    }
+    .azul {
+        height: 300px;
+        grid-column: span 3;
+    }
+    .rojo {
+        grid-column: span 3;
+        height: 300px;
+    }
+    .morado {
+        height: 400px;   
+        grid-column: span 5;
+    }
+    .gris {
+        grid-column: span 4;
+    }
+}
+
+@media screen and (min-width: 751px){
+    body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto auto auto;
+       }
+    .rosado {
+        height: 35px;
+        grid-column: span 3;
+    }
+    .verde {
+        height: 150px;
+        grid-column: span 3;
+    }
+    .azul {
+        height: 200px;
+        grid-column: span 3;
+
+    }
+    .rojo {
+        height: 150px;
+        grid-column: span 1;
+        
+    }
+    .morado {
+        height: 150px;
+        grid-column: span 1;
+    }
+    .gris {
+        height: 150px;
+        grid-column: span 1;
+    }
+}
