@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="/Assets/css/style.css">
 </head>
 <body id="main">
-    <div id="pantalla"><p></p></div>
-        <button id="siete" >7</button>
-        <button id="ocho" >8</button>
-        <button id="nueve"  onclick="appendNumber(4)">9</button>
-        <button id="dividir"  onclick="dividir">%</button>
-        <button id="cuatro"  onclick="">4</button>
-        <button id="cinco"  onclick="">5</button>
-        <button id="seis"  onclick="">6</button>
-        <button id="multiplicar"  onclick="">X</button>
-        <button id="uno"  onclick="">1</div>
-        <button id="dos"  onclick="">2</button>
-        <button id="tres"  onclick="">3</button>
-        <button id="nueve"  onclick="">-</button>
-        <button id="punto"  onclick="">.</button>
-        <button id="igual"  onclick="">=</button>
-        <button id="cero"  onclick="">0</button>
-        <button id="mas"  onclick="">+</button>
+    <input type="text" id="pantalla" disabled>
+        <button class="boton" onclick="addNum(7)">7</button>
+        <button class="boton"  onclick="addNum(8)">8</button>
+        <button class="boton"  onclick="addNum(9)">9</button>
+        <button class="boton"   onclick="operation('/')">/</button>
+        <button class="boton"   onclick="addNum(4)">4</button>
+        <button class="boton"  onclick="addNum(5)">5</button>
+        <button class="boton"  onclick="addNum(6)">6</button>
+        <button class="boton"   onclick="operation('*')">X</button>
+        <button class="boton"   onclick="addNum(1)">1 </button>
+        <button class="boton"  onclick="addNum(2)">2</button>
+        <button class="boton"   onclick="addNum(3)">3</button>
+        <button class="boton"   onclick="operation('-')">-</button>
+        <button class="boton"   onclick="limpiar()">C</button>
+        <button class="boton"   onclick="calcule()">=</button>
+        <button class="boton"   onclick="addNum(0)">0</button>
+        <button class="boton"  onclick="operation('+')">+</button>
 
     
     
